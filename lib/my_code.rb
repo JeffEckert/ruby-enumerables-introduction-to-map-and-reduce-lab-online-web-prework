@@ -54,7 +54,7 @@ def map_to_square(array)
  def reduce_to_total(array)
   counter = 0 
    while counter < array.size do
-  return false if array[counter].include? 
+  return false if array[counter].value == false
    counter += 1
    end
    return true
